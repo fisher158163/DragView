@@ -51,5 +51,4 @@ class LYDragView: NSView {
         delegate?.dragFilePathList(filePathList)
         return true
     }
-    
 }
