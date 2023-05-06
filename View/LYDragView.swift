@@ -1,9 +1,7 @@
-//
 //  LYDragView.swift
 //  CleanMyMac
 //
 //  Created by Fisher on 2023/5/6.
-//
 
 import Cocoa
 
@@ -13,6 +11,7 @@ protocol LYDragViewDelegate: NSObjectProtocol {
 }
 
 class LYDragView: NSView {
+    
     weak var delegate: LYDragViewDelegate?
     
     // 拖动事件所监听的数据类型
