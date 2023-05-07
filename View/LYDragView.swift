@@ -13,7 +13,6 @@ protocol LYDragViewDelegate: NSObjectProtocol {
 class LYDragView: NSView {
     
     weak var delegate: LYDragViewDelegate?
-    
     // 拖动事件所监听的数据类型
     let filenamesPboardType = NSPasteboard.PasteboardType("NSFilenamesPboardType")
     
